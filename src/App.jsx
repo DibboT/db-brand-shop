@@ -1,7 +1,8 @@
 
-import './App.css'
+
+import Banner from './components/Banner'
 import CarBrand from './components/CarBrand'
-import Card from './components/Card'
+import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
     <div>
       <NavBar></NavBar>
       <CarBrand></CarBrand>
+      <Banner></Banner>
+      <Footer></Footer>
     </div>   
     </>
   )
