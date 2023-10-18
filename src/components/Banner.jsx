@@ -1,7 +1,8 @@
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://luxedrive.qodeinteractive.com/wp-content/uploads/2023/01/h1-img-5.jpg)' }}>
+        <div className="hero h-[500px] my-10" style={{ backgroundImage: 'url(https://luxedrive.qodeinteractive.com/wp-content/uploads/2023/01/h1-img-5.jpg)' }}>
+            
             <div className="text-center">
                 <h2 className="text-4xl text-white font-bold">Do You Need A Car?<br/>
                     Buy One Your Favourite</h2>

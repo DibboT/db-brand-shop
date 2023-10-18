@@ -6,12 +6,17 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Login from './components/Login/Login.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>
+    element: <App></App>,
   },
+  {
+    path: "/login",
+    element: <Login></Login>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
